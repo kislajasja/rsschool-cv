@@ -211,7 +211,7 @@
                 let items = [];
                 traverse(node, items);
                 return JSON.stringify(items) === JSON.stringify(items.slice().sort((a,b) =&gt; a - b))||
-                       JSON.stringify(items) === JSON.stringify(items.slice().sort((a,b) =&gt; b - a))
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;JSON.stringify(items) === JSON.stringify(items.slice().sort((a,b) =&gt; b - a))
               };
               
               function traverse(node, items){
