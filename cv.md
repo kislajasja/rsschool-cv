@@ -22,7 +22,7 @@ Technologist and Chemist
 
 Alcohol production
 
-**2018-2021 JV Stilmark**
+**2018-2022 JV Stilmark**
 
 Researcher and Development specialist 
 
