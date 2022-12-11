@@ -102,7 +102,7 @@ p {
 }
 
 .page_section {
-  scroll-margin-top: 60px; 
+  scroll-margin-top: 60px;
   padding: 30px;
   max-width: 1200px;
   margin: 0px auto;
@@ -137,11 +137,9 @@ p {
   justify-content: center;
   align-items: center;
   min-height: 70px;
-
 }
 
 .header_menu {
-
   width: 100%;
 }
 
@@ -179,7 +177,7 @@ p {
   flex-wrap: wrap;
 }
 
-.project_img {
+.img_project {
   padding-bottom: 15px;
   max-width: 350px;
 }

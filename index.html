@@ -9,6 +9,7 @@
   </head>
   <body>
     <button
+      type="button"
       onclick="topFunction()"
       id="top_button"
       title="Go to top"
@@ -115,11 +116,8 @@
               <a
                 href="https://rolling-scopes-school.github.io/kislajasja-JSFEPRESCHOOL/vertical-slider/"
                 target="_blank"
-                ><img
-                  src="assets/vertical_slider.JPG"
-                  alt="Vertical Slider"
-                  class="project_img"
-                />
+              >
+                <img src="assets/vertical_slider.JPG" alt="Vertical Slider" class="img_project">
                 <div class="project_description">
                   <h3>Vertical Slider</h3>
                   <p>Technologies: HTML, CSS, JS</p>
@@ -130,11 +128,8 @@
               <a
                 href="https://rolling-scopes-school.github.io/kislajasja-JSFEPRESCHOOL/portfolio/"
                 target="_blank"
-                ><img
-                  src="assets/portfolio.JPG"
-                  alt="Portfolio"
-                  class="project_img"
-                />
+              >
+                <img src="assets/portfolio.JPG" alt="Portfolio" class="img_project">
                 <div class="project_description">
                   <h3>Portfolio</h3>
                   <p>Technologies: HTML, CSS, JS</p>
@@ -145,11 +140,8 @@
               <a
                 href="https://rolling-scopes-school.github.io/kislajasja-JSFEPRESCHOOL/whack-a-mole/"
                 target="_blank"
-                ><img
-                  src="assets/whack_a_mole.JPG"
-                  alt="Whack A Mole"
-                  class="project_img"
-                />
+              >
+                <img src="assets/whack_a_mole.JPG" alt="Whack A Mole" class="img_project">
                 <div class="project_description">
                   <h3>Whack-A-Mole</h3>
                   <p>Technologies: HTML, CSS, JS</p>
@@ -160,11 +152,8 @@
               <a
                 href="https://kislajasja.github.io/virtual-keyboard/"
                 target="_blank"
-                ><img
-                  src="assets/virtual_keyboard.JPG"
-                  alt="Windows Virtual Keyboard"
-                  class="project_img"
-                />
+              >
+                <img src="assets/virtual_keyboard.JPG" alt="Windows Virtual Keyboard" class="img_project">
                 <div class="project_description">
                   <h3>Windows Virtual Keyboard</h3>
                   <p>Technologies: HTML, CSS, JS</p>
@@ -175,11 +164,8 @@
               <a
                 href="https://rolling-scopes-school.github.io/kislajasja-JSFE2022Q1/shelter/pages/main/"
                 target="_blank"
-                ><img
-                  src="assets/shelter.JPG"
-                  alt="Shelter"
-                  class="project_img"
-                />
+              >
+                <img src="assets/shelter.JPG" alt="Shelter" class="img_project">
                 <div class="project_description">
                   <h3>Shelter</h3>
                   <p>Technologies: HTML, CSS, JS</p>
@@ -190,11 +176,8 @@
               <a
                 href="https://kislajasja.github.io/cssMemSlider/cssMemSlider/"
                 target="_blank"
-                ><img
-                  src="assets/css_mem_slider.JPG"
-                  alt="CSS Mem Slider"
-                  class="project_img"
-                />
+              >
+                <img src="assets/css_mem_slider.JPG" alt="CSS Mem Slider" class="img_project">
                 <div class="project_description">
                   <h3>CSS Mem Slider</h3>
                   <p>Technologies: HTML, CSS</p>
@@ -211,11 +194,7 @@
                 href="https://www.codewars.com/users/kislajasja"
                 target="_blank"
               >
-                <img
-                  src="assets/logo.svg"
-                  alt="Codewars account"
-                  class="codewars"
-                />
+                <img src="assets/logo.svg" alt="Codewars account" class="codewars">
               </a>
               <div><span>Codewars Account</span></div>
             </div>
@@ -228,11 +207,11 @@
                 }
               }
               
-              const isBST = node => {
+              const isBST = node =&gt; {
                 let items = [];
                 traverse(node, items);
-                return JSON.stringify(items) === JSON.stringify(items.slice().sort((a,b) => a - b))||
-                       JSON.stringify(items) === JSON.stringify(items.slice().sort((a,b) => b - a))
+                return JSON.stringify(items) === JSON.stringify(items.slice().sort((a,b) =&gt; a - b))||
+                       JSON.stringify(items) === JSON.stringify(items.slice().sort((a,b) =&gt; b - a))
               };
               
               function traverse(node, items){
@@ -248,7 +227,7 @@
           <h2 class="page_sub-title" id="languages">Languages</h2>
           <div class="page_text">
             <ul>
-              <li><b>Engish</b> - Pre-Intermediate (A2)</li>
+              <li><b>English</b> - Intermediate (B1)</li>
               <li><b>Russian</b> - Native</li>
             </ul>
           </div>
@@ -268,16 +247,12 @@
         <ul class="footer_contacts">
           <li>
             <a href="https://github.com/kislajasja" target="_blank">
-              <img
-                src="assets/Octicons-mark-github.svg"
-                alt="Github account"
-                class="github"
-              />
+              <img src="assets/Octicons-mark-github.svg" alt="Github account" class="github">
             </a>
           </li>
           <li>
             <a href="https://rs.school/js/" target="_blank">
-              <img src="assets/rs_school_js.svg" alt="Logo" class="logo" />
+              <img src="assets/rs_school_js.svg" alt="Logo" class="logo">
             </a>
           </li>
           <li>Minsk, Belarus</li>
