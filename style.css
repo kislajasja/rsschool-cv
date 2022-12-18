@@ -9,6 +9,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 ul,
@@ -28,7 +29,7 @@ body {
   font-size: 16px;
   font-family: system-ui;
   scroll-behavior: smooth;
-  color: #601b80;
+  color: #ffffff;
 }
 
 body._lock {
@@ -36,11 +37,12 @@ body._lock {
 }
 
 html {
-  background: url(assets/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background: rgb(190, 190, 190);
+  background: linear-gradient(90deg, rgba(190, 190, 190, 1) 0%, rgba(92, 101, 107, 0.7987570028011204) 100%);
 }
 
 .wrapper {
@@ -69,10 +71,12 @@ h2 {
 
 h3 {
   font-size: 25px;
+  color: white;
 }
 
 p {
   font-size: 20px;
+  color: white;
 }
 
 #top_button {
@@ -83,8 +87,8 @@ p {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #601b80;
-  color: #edcceb;
+  background-color: white;
+  color: #5c656b;
   cursor: pointer;
   padding: 15px 20px 0px 20px;
   border-radius: 10px;
@@ -124,7 +128,7 @@ p {
 
 .header {
   position: fixed;
-  background-color: #c40882;
+  background-color: #5c656b;
   top: 0;
   left: 0;
   width: 100%;
@@ -163,11 +167,7 @@ p {
 }
 
 .photo {
-  border: solid #601b80;
-  border-top-left-radius: 10%;
-  border-bottom-right-radius: 10%;
-  height: 300px;
-  width: 220px;
+  width: 270px;
 }
 
 .projects {
@@ -196,7 +196,6 @@ p {
 }
 
 .code-example {
-  background-color: #ffffff;
   border-radius: 2%;
   margin: 20px;
 }
@@ -213,7 +212,7 @@ p {
 
 footer {
   height: 70px;
-  background-color: #c40882;
+  background-color: #5c656b;
 }
 
 .footer_contacts {
@@ -302,7 +301,6 @@ footer {
     top: 0;
     left: 0;
     height: 70px;
-    background-color: #35074a;
     z-index: 2;
   }
   .menu_list > li {
