@@ -37,7 +37,6 @@ body._lock {
 }
 
 html {
-  /* background: url(assets/background.jpg) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -168,9 +167,6 @@ p {
 }
 
 .photo {
-  /* border: solid #601b80; */
-  /* border-top-left-radius: 10%;
-  border-bottom-right-radius: 10%; */
   width: 270px;
 }
 
@@ -200,7 +196,6 @@ p {
 }
 
 .code-example {
-  /* background-color: #ffffff; */
   border-radius: 2%;
   margin: 20px;
 }
@@ -306,7 +301,6 @@ footer {
     top: 0;
     left: 0;
     height: 70px;
-    /* background-color: #35074a; */
     z-index: 2;
   }
   .menu_list > li {
