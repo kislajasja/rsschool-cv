@@ -22,7 +22,7 @@ Technologist and Chemist
 
 Alcohol production
 
-**2018-2021 JV Stilmark**
+**2018-now JV Stilmark**
 
 Researcher and Development specialist 
 
@@ -36,15 +36,11 @@ Cosmetic production
 
 ## Skills
 
-HTML-basics
+HTML
 
-CSS-basics
+CSS
 
-CSS-positioning
-
-JavaScript-basics
-
-JavaScript-functions
+JavaScript
 
 ## Languages
 
